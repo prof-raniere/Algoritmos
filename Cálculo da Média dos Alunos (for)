@@ -1,0 +1,12 @@
+# Cálculo da média dos alunos informando a quantidade de alunos.
+soma = 0
+
+quantidade = int(input("Quantos alunos? "))
+
+for i in range(quantidade):
+    nota = float(input("Digite a nota final do aluno: "))
+    soma = soma + nota
+
+media = soma / quantidade
+
+print(f"Média da turma: {media:.2f}")
