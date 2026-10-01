@@ -1,0 +1,22 @@
+# Sistema de votação
+
+idade = int(input("Digite sua idade: "))
+
+if idade < 16:
+    print("Você não pode votar.")
+else:
+    print("\nCandidatos:")
+    print("1 - Candidato 1")
+    print("2 - Candidato 2")
+    print("3 - Candidato 3")
+
+    voto = int(input("Digite o número do candidato: "))
+
+    if voto == 1:
+        print("Você votou no Candidato 1.")
+    elif voto == 2:
+        print("Você votou no Candidato 2.")
+    elif voto == 3:
+        print("Você votou no Candidato 3.")
+    else:
+        print("Voto inválido.")
