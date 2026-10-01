@@ -1,0 +1,8 @@
+# Verificação de senha
+senha = input("Digite a senha: ")
+
+while senha != "1234":
+    print("Senha incorreta!")
+    senha = str(input("Digite novamente: "))
+
+print("Acesso permitido!")
